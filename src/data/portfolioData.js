@@ -68,6 +68,37 @@ export const portfolioData = {
 
   projects: [
     {
+      id: "vaididea-healthcare-qa",
+      title: "Vaididea // AI Healthcare Ecosystem & QA Manual Suite",
+      category: "Software Testing",
+      description: "An AI-powered unified healthcare ecosystem connecting patients, doctors, hospitals, clinics, pharmacies, diagnostic centers, and emergency ambulance services. Conducted comprehensive manual testing across critical patient booking flows, symptom-assessment journeys, digital health records (EHR), and provider dashboards.",
+      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
+      tags: ["Manual Testing", "Functional QA", "Test Scenarios", "Cross-Browser Testing", "Healthcare Workflows", "Defect Triage"],
+      liveUrl: "https://vaididea.in",
+      githubUrl: "https://github.com/Ranjitjaiswal1",
+      featured: true,
+      color: "cyan",
+      metrics: "Live Production Platform • 100% Critical Flow Coverage",
+      qaHighlights: [
+        {
+          label: "User Journeys & Functional QA",
+          detail: "Designed and executed manual test suites for doctor appointment booking, digital prescriptions, and emergency SOS services."
+        },
+        {
+          label: "Cross-Platform & Device Testing",
+          detail: "Verified mobile responsiveness, accessibility, and UI performance across desktop, tablet, and mobile viewports."
+        },
+        {
+          label: "EHR & Data Validation",
+          detail: "Tested medical history management, diagnostic report uploads, and role-based privacy access controls."
+        },
+        {
+          label: "Defect Tracking & Triage",
+          detail: "Logged and triaged edge-case anomalies, UI regressions, and workflow bottlenecks to ensure zero critical bugs."
+        }
+      ]
+    },
+    {
       id: "omnistore-frontend-qa",
       title: "OmniStore // E-Commerce & E2E Test Suite",
       category: "Frontend & QA",

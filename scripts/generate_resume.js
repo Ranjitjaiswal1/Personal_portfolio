@@ -104,6 +104,13 @@ doc.moveDown(0.3);
 addSectionHeader('Key Projects');
 
 // Project 1
+doc.fillColor(dark).fontSize(9.5).font('Helvetica-Bold').text('Vaididea // AI Healthcare Platform (Manual Testing & QA)', { continued: true });
+doc.fillColor(muted).fontSize(8).font('Helvetica').text('  (Manual Testing, Functional QA, vaididea.in)', { align: 'right' });
+doc.fillColor(secondary).fontSize(8.5).font('Helvetica')
+  .text('Conducted end-to-end manual testing across doctor booking, symptom assessment, EHR records, and emergency workflows ensuring zero critical defects.');
+doc.moveDown(0.2);
+
+// Project 2
 doc.fillColor(dark).fontSize(9.5).font('Helvetica-Bold').text('OmniStore // Modern React E-Commerce + Automated E2E Suite', { continued: true });
 doc.fillColor(muted).fontSize(8).font('Helvetica').text('  (React, Tailwind, Redux, Cypress, Jest)', { align: 'right' });
 doc.fillColor(secondary).fontSize(8.5).font('Helvetica')

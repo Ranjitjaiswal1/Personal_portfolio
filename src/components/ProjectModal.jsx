@@ -55,25 +55,36 @@ export function ProjectModal({ project, isOpen, onClose }) {
           <div className="p-5 rounded-xl bg-slate-900/60 border border-slate-800 space-y-3">
             <h4 className="text-xs font-mono text-cyan-400 uppercase tracking-widest font-bold flex items-center gap-2">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>Engineering & Quality Assurance Rigor</span>
+              <span>Quality Assurance & Engineering Highlights</span>
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-300">
-              <div className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
-                <span><strong>Test Automation:</strong> Automated regression & unit test coverage to prevent defect leakage.</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
-                <span><strong>UI Performance:</strong> Fully responsive mobile-first architecture tested on Chrome, Safari & Firefox.</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
-                <span><strong>API Integrity:</strong> Endpoint contract testing and payload validation with Postman.</span>
-              </div>
-              <div className="flex items-start gap-2">
-                <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
-                <span><strong>CI/CD Integration:</strong> Continuous test verification pipeline running before each deploy.</span>
-              </div>
+              {project.qaHighlights ? (
+                project.qaHighlights.map((highlight, idx) => (
+                  <div key={idx} className="flex items-start gap-2">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
+                    <span><strong>{highlight.label}:</strong> {highlight.detail}</span>
+                  </div>
+                ))
+              ) : (
+                <>
+                  <div className="flex items-start gap-2">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
+                    <span><strong>Test Automation:</strong> Automated regression & unit test coverage to prevent defect leakage.</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
+                    <span><strong>UI Performance:</strong> Fully responsive mobile-first architecture tested on Chrome, Safari & Firefox.</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
+                    <span><strong>API Integrity:</strong> Endpoint contract testing and payload validation with Postman.</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
+                    <span><strong>CI/CD Integration:</strong> Continuous test verification pipeline running before each deploy.</span>
+                  </div>
+                </>
+              )}
             </div>
           </div>
 
