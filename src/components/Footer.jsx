@@ -46,11 +46,6 @@ export function Footer() {
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
               Passionate about building responsive, modern user interfaces and engineering automated test pipelines that guarantee zero production defects.
             </p>
-
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-xs text-emerald-400 font-mono">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>Available for Hire & Freelance</span>
-            </div>
           </div>
 
           {/* Quick Navigation Links (Col 6-8) */}
