@@ -38,7 +38,7 @@ doc.moveDown(0.3);
 
 // Contact Info Line
 doc.fillColor(muted).fontSize(9).font('Helvetica')
-  .text('Phone: +91 7004060528  |  Email: ranjitjaiswal321@gmail.com  |  GitHub: github.com/ranjitjaiswal321  |  India', { align: 'center' });
+  .text('Phone: +91 7004060528  |  Email: ranjitjaiswal321@gmail.com  |  GitHub: github.com/Ranjitjaiswal1  |  India', { align: 'center' });
 
 doc.moveDown(0.5);
 doc.strokeColor('#cbd5e1').lineWidth(0.75).moveTo(40, doc.y).lineTo(555, doc.y).stroke();
@@ -61,7 +61,7 @@ doc.fillColor(secondary).fontSize(9).font('Helvetica').lineGap(2)
 addSectionHeader('Technical Skills');
 const skills = [
   { cat: 'Languages & Core:', list: 'C++, Python, JavaScript (ES6+), TypeScript, HTML5, CSS3, Data Structures & OOP' },
-  { cat: 'Frontend Frameworks:', list: 'React.js, Next.js, Redux Toolkit, Tailwind CSS, Framer Motion, Three.js / WebGL' },
+  { cat: 'Frontend Frameworks:', list: 'React.js, Next.js, Redux Toolkit, Tailwind CSS, Framer Motion, Responsive UI' },
   { cat: 'QA & Test Automation:', list: 'Cypress, Playwright, Selenium WebDriver, Jest, PyTest, REST API Testing (Postman)' },
   { cat: 'Methodologies & Tools:', list: 'Git & GitHub, Jira, TestRail, CI/CD GitHub Actions, Agile / Scrum, SDLC & STLC' }
 ];
@@ -118,10 +118,10 @@ doc.fillColor(secondary).fontSize(8.5).font('Helvetica')
 doc.moveDown(0.2);
 
 // Project 3
-doc.fillColor(dark).fontSize(9.5).font('Helvetica-Bold').text('Spectra 3D // Interactive WebGL Product Experience', { continued: true });
-doc.fillColor(muted).fontSize(8).font('Helvetica').text('  (Three.js, React Three Fiber, WebGL)', { align: 'right' });
+doc.fillColor(dark).fontSize(9.5).font('Helvetica-Bold').text('FinPulse // Banking Dashboard & API Test Matrix', { continued: true });
+doc.fillColor(muted).fontSize(8).font('Helvetica').text('  (React, Postman, REST APIs, Tailwind CSS)', { align: 'right' });
 doc.fillColor(secondary).fontSize(8.5).font('Helvetica')
-  .text('Interactive 3D product showcase with dynamic shader lighting, 60 FPS performance, and cross-browser responsiveness.');
+  .text('Financial analytics platform with live transaction feeds, responsive tables, and automated Postman test collections validating 45+ REST endpoints.');
 doc.moveDown(0.3);
 
 // 5. Education

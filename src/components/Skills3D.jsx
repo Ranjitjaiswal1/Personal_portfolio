@@ -18,7 +18,7 @@ export function Skills3D() {
             Technical Arsenal & <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">Toolkit</span>
           </h2>
           <p className="mt-4 text-slate-300 text-base sm:text-lg">
-            Proficiency in modern Frontend Engineering, Software Testing & QA Automation, C++, Python, JavaScript, and Interactive 3D Web.
+            Proficiency in modern Frontend Engineering, Software Testing & QA Automation, C++, Python, JavaScript, and CI/CD pipelines.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ export function Skills3D() {
             {[
               "C++", "Python", "JavaScript", "HTML5", "CSS3", "React.js",
               "Cypress", "Selenium", "Playwright", "Jest", "Postman",
-              "Tailwind CSS", "TypeScript", "Three.js", "Git", "GitHub Actions",
+              "Tailwind CSS", "TypeScript", "Redux Toolkit", "Git", "GitHub Actions",
               "Jira", "TestRail", "Agile / Scrum", "REST APIs", "Vite"
             ].map((tool, i) => (
               <span

@@ -97,7 +97,7 @@ export function ResumeModal({ isOpen, onClose }) {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
               <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
                 <strong className="text-white block mb-1">Frontend Engineering:</strong>
-                <span className="text-slate-300">React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Redux, Three.js</span>
+                <span className="text-slate-300">React.js, Next.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Redux Toolkit</span>
               </div>
               <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
                 <strong className="text-white block mb-1">QA & Test Automation:</strong>

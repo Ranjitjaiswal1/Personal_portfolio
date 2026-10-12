@@ -8,7 +8,7 @@ export const portfolioData = {
     phoneRaw: "7004060528",
     email: "ranjitjaiswal321@gmail.com",
     tagline: "Building responsive, modern web applications and architecting robust automated software test suites.",
-    bio: "I am a passionate Frontend Engineer and Software Testing Specialist with a dual passion for crafting pixel-perfect, interactive user interfaces and ensuring rock-solid software quality. Leveraging modern technologies like React, JavaScript, Three.js, and automated QA tools (Cypress, Playwright, Selenium, Jest, Postman), I bridge the gap between creative frontend development and zero-defect quality assurance.",
+    bio: "I am a passionate Frontend Engineer and Software Testing Specialist with a dual passion for crafting pixel-perfect, interactive user interfaces and ensuring rock-solid software quality. Leveraging modern technologies like React, JavaScript, TypeScript, and automated QA tools (Cypress, Playwright, Selenium, Jest, Postman), I bridge the gap between creative frontend development and zero-defect quality assurance.",
     avatar: "/profile.jpg",
     resumeUrl: "/Ranjit_Kumar_Jaiswal_Resume.pdf",
     stats: [
@@ -54,13 +54,13 @@ export const portfolioData = {
       ]
     },
     {
-      category: "Tools, 3D & Methodologies",
+      category: "Tools & CI/CD Methodologies",
       color: "from-emerald-500 to-teal-600",
       items: [
         { name: "Git, GitHub & Version Control", level: 92 },
         { name: "Jira, TestRail & Defect Triage", level: 90 },
-        { name: "Three.js & WebGL (3D UI)", level: 80 },
-        { name: "CI/CD Automated Pipelines", level: 85 },
+        { name: "CI/CD GitHub Actions Pipelines", level: 88 },
+        { name: "Docker & Container Basics", level: 82 },
         { name: "Agile, Scrum & STLC/SDLC", level: 92 }
       ]
     }
@@ -93,19 +93,7 @@ export const portfolioData = {
       color: "purple",
       metrics: "Daily Automated CI Runs • 40% Faster Triage"
     },
-    {
-      id: "spectra-3d-experience",
-      title: "Spectra 3D // Interactive Product Showcase",
-      category: "3D WebGL",
-      description: "Immersive 3D interactive WebGL web application with custom shader materials, particle lighting, and cross-browser performance benchmarks.",
-      image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
-      tags: ["Three.js", "React Three Fiber", "WebGL", "Framer Motion"],
-      liveUrl: "https://example.com/spectra-3d",
-      githubUrl: "https://github.com/Ranjitjaiswal1/spectra-3d",
-      featured: true,
-      color: "pink",
-      metrics: "60 FPS Smooth Render • Mobile Tested"
-    },
+
     {
       id: "finpulse-api-matrix",
       title: "FinPulse // Banking Dashboard & API Test Matrix",

@@ -21,9 +21,9 @@ export function About() {
       accent: "text-purple-400"
     },
     {
-      icon: Box,
-      title: "3D & Interactive Web",
-      desc: "Crafting captivating WebGL and Three.js 3D web environments with fluid Framer Motion micro-interactions and strict performance optimization.",
+      icon: Globe2,
+      title: "API & CI/CD Integration",
+      desc: "Designing robust REST API integrations, Postman automation pipelines, and automated GitHub Actions workflows for continuous zero-downtime releases.",
       color: "from-pink-500 to-rose-600",
       accent: "text-pink-400"
     }

@@ -9,7 +9,7 @@ export function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   const { projects } = portfolioData;
 
-  const categories = ['All', 'Frontend', 'Software Testing', '3D WebGL'];
+  const categories = ['All', 'Frontend', 'Software Testing'];
 
   const filteredProjects = useMemo(() => {
     if (activeFilter === 'All') return projects;
@@ -32,7 +32,7 @@ export function Projects() {
               Selected <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400">Engineering & QA Projects</span>
             </h2>
             <p className="mt-2 text-slate-400 text-sm sm:text-base max-w-xl">
-              Hover over cards for 3D tilt perspective, or click "Case Study" for deep-dive architecture and test strategies.
+              Explore key frontend implementations and automated quality assurance test suites.
             </p>
           </div>
 
