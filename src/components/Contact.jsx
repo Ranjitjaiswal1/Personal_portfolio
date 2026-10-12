@@ -341,10 +341,10 @@ export function Contact() {
                       className="flex-1 py-4 rounded-xl bg-gradient-to-r from-cyan-500 via-teal-400 to-blue-600 text-slate-950 font-bold text-sm tracking-wide shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 hover:scale-[1.01] active:scale-[0.99] transition-all flex items-center justify-center gap-2 disabled:opacity-50"
                     >
                       {isSubmitting ? (
-                        <span>Sending to Ranjit's Email...</span>
+                        <span>Sending Email...</span>
                       ) : (
                         <>
-                          <span>Transmit Message to Email</span>
+                          <span>Send to Email</span>
                           <Send className="w-4 h-4" />
                         </>
                       )}
