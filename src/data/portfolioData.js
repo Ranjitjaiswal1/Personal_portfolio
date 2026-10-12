@@ -75,7 +75,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80",
       tags: ["React", "Tailwind CSS", "Cypress", "Jest", "Redux Toolkit"],
       liveUrl: "https://example.com/omnistore",
-      githubUrl: "https://github.com/ranjitjaiswal321/omnistore-react-e2e",
+      githubUrl: "https://github.com/Ranjitjaiswal1/omnistore-react-e2e",
       featured: true,
       color: "cyan",
       metrics: "100% Core Flow Coverage • 0 Defect Leakage"
@@ -88,7 +88,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
       tags: ["React", "Chart.js", "Playwright", "Postman", "Tailwind"],
       liveUrl: "https://example.com/qualityops",
-      githubUrl: "https://github.com/ranjitjaiswal321/qualityops-dashboard",
+      githubUrl: "https://github.com/Ranjitjaiswal1/qualityops-dashboard",
       featured: true,
       color: "purple",
       metrics: "Daily Automated CI Runs • 40% Faster Triage"
@@ -101,7 +101,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80",
       tags: ["Three.js", "React Three Fiber", "WebGL", "Framer Motion"],
       liveUrl: "https://example.com/spectra-3d",
-      githubUrl: "https://github.com/ranjitjaiswal321/spectra-3d",
+      githubUrl: "https://github.com/Ranjitjaiswal1/spectra-3d",
       featured: true,
       color: "pink",
       metrics: "60 FPS Smooth Render • Mobile Tested"
@@ -114,7 +114,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&q=80",
       tags: ["React", "Postman", "REST APIs", "Tailwind CSS"],
       liveUrl: "https://example.com/finpulse",
-      githubUrl: "https://github.com/ranjitjaiswal321/finpulse-banking-qa",
+      githubUrl: "https://github.com/Ranjitjaiswal1/finpulse-banking-qa",
       featured: false,
       color: "emerald",
       metrics: "45+ API Endpoints Automated"
@@ -127,7 +127,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80",
       tags: ["React", "TypeScript", "Tailwind CSS", "Storybook"],
       liveUrl: "https://example.com/crosscheck",
-      githubUrl: "https://github.com/ranjitjaiswal321/crosscheck-ui-library",
+      githubUrl: "https://github.com/Ranjitjaiswal1/crosscheck-ui-library",
       featured: false,
       color: "cyan",
       metrics: "100% Mobile & Tablet Responsive"
@@ -140,7 +140,7 @@ export const portfolioData = {
       image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&w=800&q=80",
       tags: ["Selenium", "JavaScript", "GitHub Actions", "CI/CD"],
       liveUrl: "https://example.com/autohealth",
-      githubUrl: "https://github.com/ranjitjaiswal321/autohealth-smoke-ci",
+      githubUrl: "https://github.com/Ranjitjaiswal1/autohealth-smoke-ci",
       featured: false,
       color: "purple",
       metrics: "0 Downtime Deployments"
@@ -233,7 +233,7 @@ export const portfolioData = {
   ],
 
   socials: {
-    github: "https://github.com/ranjitjaiswal321",
+    github: "https://github.com/Ranjitjaiswal1",
     linkedin: "https://linkedin.com/in/ranjit-kumar-jaiswal",
     twitter: "https://twitter.com",
     phone: "+91 7004060528",

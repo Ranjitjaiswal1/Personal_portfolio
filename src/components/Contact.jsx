@@ -213,7 +213,7 @@ export function Contact() {
                   <div>
                     <div className="text-xs text-slate-400">GitHub Repository</div>
                     <a href={socials.github} target="_blank" rel="noreferrer" className="text-xs sm:text-sm font-mono text-purple-300 hover:underline">
-                      github.com/ranjitjaiswal321
+                      github.com/Ranjitjaiswal1
                     </a>
                   </div>
                 </div>
