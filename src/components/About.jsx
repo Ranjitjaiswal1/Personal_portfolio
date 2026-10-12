@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Code2, ShieldCheck, Globe2, Sparkles, User, CheckCircle2 } from 'lucide-react';
+import { Box, Code2, ShieldCheck, HeartPulse, Globe2, Sparkles, User, CheckCircle2, ExternalLink } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 
 export function About() {
@@ -14,11 +14,13 @@ export function About() {
       accent: "text-cyan-400"
     },
     {
-      icon: ShieldCheck,
-      title: "Software Testing & QA",
-      desc: "Executing comprehensive automated and manual testing strategies using Cypress, Playwright, Selenium, Jest, and Postman to ensure zero critical defects in production.",
-      color: "from-purple-500 to-indigo-600",
-      accent: "text-purple-400"
+      icon: HeartPulse,
+      title: "Vaididea // AI Healthcare Ecosystem",
+      desc: "An AI-powered healthcare ecosystem concept unifying patients, doctors, hospitals, pharmacies, emergency SOS ambulance, and digital health records (EHR) through accessible digital technology and robust QA validation.",
+      color: "from-purple-500 to-pink-600",
+      accent: "text-pink-400",
+      link: "https://vaididea.in",
+      linkLabel: "vaididea.in"
     }
   ];
 
@@ -62,6 +64,24 @@ export function About() {
                 <p className="text-slate-300 text-sm leading-relaxed">
                   {pillar.desc}
                 </p>
+
+                {pillar.link && (
+                  <div className="mt-5 pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                    <span className="text-xs font-mono text-emerald-400 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                      Live Platform
+                    </span>
+                    <a
+                      href={pillar.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs font-mono font-medium text-cyan-400 hover:text-cyan-300 transition-colors bg-cyan-500/10 hover:bg-cyan-500/20 px-3 py-1.5 rounded-lg border border-cyan-500/30"
+                    >
+                      <span>{pillar.linkLabel}</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  </div>
+                )}
               </div>
             );
           })}

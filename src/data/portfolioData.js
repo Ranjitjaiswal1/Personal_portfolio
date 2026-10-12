@@ -69,20 +69,39 @@ export const portfolioData = {
   projects: [
     {
       id: "vaididea-healthcare-qa",
-      title: "Vaididea // AI Healthcare Ecosystem & QA Manual Suite",
-      category: "Software Testing",
-      description: "An AI-powered unified healthcare ecosystem connecting patients, doctors, hospitals, clinics, pharmacies, diagnostic centers, and emergency ambulance services. Conducted comprehensive manual testing across critical patient booking flows, symptom-assessment journeys, digital health records (EHR), and provider dashboards.",
+      title: "Vaididea // AI Healthcare Ecosystem & QA Platform",
+      category: "Software Testing & Healthcare",
+      description: "An AI-powered healthcare ecosystem concept designed to bring patients, doctors, hospitals, clinics, pharmacies, diagnostic services, and emergency healthcare services together through a unified digital platform. Built to simplify healthcare access by connecting essential healthcare services and making medical interactions accessible through digital technology.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80",
-      tags: ["Manual Testing", "Functional QA", "Test Scenarios", "Cross-Browser Testing", "Healthcare Workflows", "Defect Triage"],
+      tags: ["AI Health Assistant", "Doctor Booking", "Digital Health Records", "Emergency SOS", "Healthcare Workflows", "Manual QA", "Functional Testing"],
       liveUrl: "https://vaididea.in",
       githubUrl: "https://github.com/Ranjitjaiswal1",
       featured: true,
       color: "cyan",
-      metrics: "Live Production Platform • 100% Critical Flow Coverage",
+      metrics: "Live Platform • https://vaididea.in",
+      projectObjective: "Explore how a unified digital healthcare platform can improve accessibility, organization, and coordination of healthcare services through modern technology.",
+      technicalLearning: "Represents deep interest in applying digital technology to real-world healthcare challenges: user-focused platform design, healthcare service integration, AI-assisted experiences, digital workflows, and scalable software architecture.",
+      keyFeatures: [
+        { label: "Smart Doctor Booking", detail: "Discover verified doctors and schedule appointments seamlessly." },
+        { label: "AI Health Assistant", detail: "AI-based health information and symptom-assessment experience." },
+        { label: "Emergency SOS & Ambulance", detail: "Designed to help users access urgent emergency assistance and ambulance dispatch." },
+        { label: "Digital Health Records", detail: "Organizing medical history, prescriptions, and diagnostic reports in one secure space." },
+        { label: "Online Consultations", detail: "Support for digital consultations and remote healthcare interactions." },
+        { label: "Pharmacy & Diagnostics", detail: "Connecting users directly with verified pharmacies and diagnostic service providers." },
+        { label: "Healthcare Provider Dashboards", detail: "Dedicated interfaces for clinics, doctors, and healthcare service providers." },
+        { label: "Health Information Library", detail: "Searchable medical knowledge resource covering health conditions and guidance." }
+      ],
+      futureScope: [
+        "Secure authentication and role-based access control (RBAC)",
+        "Integration of healthcare provider APIs and telemedicine protocols",
+        "Privacy-conscious medical record management and security standards",
+        "Scalable backend architecture and database integration",
+        "Continuous automated testing, monitoring, and performance optimization"
+      ],
       qaHighlights: [
         {
           label: "User Journeys & Functional QA",
-          detail: "Designed and executed manual test suites for doctor appointment booking, digital prescriptions, and emergency SOS services."
+          detail: "Designed and executed test suites for doctor appointment booking, digital prescriptions, and emergency SOS services."
         },
         {
           label: "Cross-Platform & Device Testing",
@@ -90,7 +109,7 @@ export const portfolioData = {
         },
         {
           label: "EHR & Data Validation",
-          detail: "Tested medical history management, diagnostic report uploads, and role-based privacy access controls."
+          detail: "Tested medical history management, diagnostic report uploads, and privacy access controls."
         },
         {
           label: "Defect Tracking & Triage",

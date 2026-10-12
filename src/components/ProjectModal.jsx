@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, ExternalLink, Github, CheckCircle2, ShieldCheck, Layers, Cpu } from 'lucide-react';
+import { X, ExternalLink, Github, CheckCircle2, ShieldCheck, Layers, Cpu, Sparkles, Target, Compass } from 'lucide-react';
 
 export function ProjectModal({ project, isOpen, onClose }) {
   if (!isOpen || !project) return null;
@@ -51,6 +51,27 @@ export function ProjectModal({ project, isOpen, onClose }) {
             </p>
           </div>
 
+          {/* Key Features & Platform Capabilities (if available) */}
+          {project.keyFeatures && (
+            <div className="p-5 rounded-xl bg-slate-900/60 border border-slate-800 space-y-3">
+              <h4 className="text-xs font-mono text-cyan-400 uppercase tracking-widest font-bold flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-cyan-400" />
+                <span>Key Features & Platform Capabilities</span>
+              </h4>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-300">
+                {project.keyFeatures.map((feat, idx) => (
+                  <div key={idx} className="flex items-start gap-2 bg-slate-950/40 p-2.5 rounded-lg border border-slate-800/60">
+                    <CheckCircle2 className="w-3.5 h-3.5 text-cyan-400 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="font-semibold text-white block">{feat.label}</span>
+                      <span className="text-slate-400 text-[11px] leading-relaxed">{feat.detail}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* QA & Frontend Engineering Architecture */}
           <div className="p-5 rounded-xl bg-slate-900/60 border border-slate-800 space-y-3">
             <h4 className="text-xs font-mono text-cyan-400 uppercase tracking-widest font-bold flex items-center gap-2">
@@ -87,6 +108,52 @@ export function ProjectModal({ project, isOpen, onClose }) {
               )}
             </div>
           </div>
+
+          {/* Technical Learning & Objectives (if available) */}
+          {(project.technicalLearning || project.projectObjective) && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {project.projectObjective && (
+                <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800 space-y-1.5">
+                  <h5 className="text-[11px] font-mono uppercase tracking-wider text-cyan-400 font-bold flex items-center gap-1.5">
+                    <Target className="w-3.5 h-3.5" />
+                    <span>Project Objective</span>
+                  </h5>
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    {project.projectObjective}
+                  </p>
+                </div>
+              )}
+              {project.technicalLearning && (
+                <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800 space-y-1.5">
+                  <h5 className="text-[11px] font-mono uppercase tracking-wider text-purple-400 font-bold flex items-center gap-1.5">
+                    <Compass className="w-3.5 h-3.5" />
+                    <span>Technical & Product Learning</span>
+                  </h5>
+                  <p className="text-xs text-slate-300 leading-relaxed">
+                    {project.technicalLearning}
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Future Scope (if available) */}
+          {project.futureScope && (
+            <div className="p-4 rounded-xl bg-slate-900/40 border border-slate-800 space-y-2">
+              <h5 className="text-[11px] font-mono uppercase tracking-wider text-emerald-400 font-bold flex items-center gap-1.5">
+                <Cpu className="w-3.5 h-3.5" />
+                <span>Future Scope & Platform Roadmap</span>
+              </h5>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
+                {project.futureScope.map((item, i) => (
+                  <li key={i} className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* Tech Stack */}
           <div>
