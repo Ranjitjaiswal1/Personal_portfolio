@@ -19,13 +19,6 @@ export function About() {
       desc: "Executing comprehensive automated and manual testing strategies using Cypress, Playwright, Selenium, Jest, and Postman to ensure zero critical defects in production.",
       color: "from-purple-500 to-indigo-600",
       accent: "text-purple-400"
-    },
-    {
-      icon: Globe2,
-      title: "API & CI/CD Integration",
-      desc: "Designing robust REST API integrations, Postman automation pipelines, and automated GitHub Actions workflows for continuous zero-downtime releases.",
-      color: "from-pink-500 to-rose-600",
-      accent: "text-pink-400"
     }
   ];
 
@@ -47,7 +40,7 @@ export function About() {
         </div>
 
         {/* Pillars Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
           {pillars.map((pillar, i) => {
             const Icon = pillar.icon;
             return (
